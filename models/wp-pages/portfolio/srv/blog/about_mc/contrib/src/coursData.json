@@ -1,0 +1,99 @@
+[       
+    {
+    "titre": "Fullstack Development",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement WEV."
+        }
+    ]
+    },
+    {
+        "titre": "DevOps",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction au DevOps",
+                "contenuMarkdown": "md/cours-devops.md"
+            }
+        ]
+    },
+
+    {
+        "titre": "Google",
+        "sousSections": [
+            {
+                "sousTitre": "contrib",
+                "contenu": "Présentation de l'agent IA le développement WEV."
+            },
+            {
+                "sousTitre": "gshell",
+                "contenuMarkdown": "md/google.md"
+            }
+        ]
+    },
+    {
+        "titre": "Github",
+        "sousSections": [
+            {
+                "sousTitre": "contrib",
+                "contenu": "Présentation de l'agent IA le développement WEV."
+            },
+            {
+                "sousTitre": "git",
+                "contenuMarkdown": "md/github.md"
+            }
+        ]
+    },
+    {
+        "titre": "wiki",
+        "sousSections": [
+            {
+                "sousTitre": "contrib",
+                "contenu": "Présentation de l'agent IA le développement WEV."
+            },
+            {
+                "sousTitre": "wiki",
+                "contenuMarkdown": "md/wiki.md"
+            }
+        ]
+    },
+    {
+        "titre": "Youtube",
+        "sousSections": [
+            {
+                "sousTitre": "contrib",
+                "contenu": "Présentation de l'agent IA le développement WEV."
+            },
+            {
+                "sousTitre": "yt",
+                "contenuMarkdown": "md/youtube.md"
+            }
+        ]
+    },
+    {
+        "titre": "Hugging-Face",
+        "sousSections": [
+            {
+                "sousTitre": "contrib",
+                "contenu": "Présentation de l'agent IA le développement WEV."
+            },
+            {
+                "sousTitre": "SQL",
+                "contenuMarkdown": "md/hugging-face.md"
+            }
+        ]
+    },
+    {
+        "titre": "OpenAI",
+        "sousSections": [
+            {
+                "sousTitre": "contrib",
+                "contenu": "Présentation de l'agent IA le développement WEV."
+            },
+            {
+                "sousTitre": "OpenAI",
+                "contenuMarkdown": "md/openAI.md"
+            }
+        ]
+    }
+]

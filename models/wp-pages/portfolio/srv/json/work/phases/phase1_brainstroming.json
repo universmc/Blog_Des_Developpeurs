@@ -1,0 +1,33 @@
+{
+    "jsonWork": {
+      "Phases": {
+        "[RUN]:Brainstorming": {
+          "Description": "Initialisation des différentes ressources (Node.js, Groq-SDK, GitHub, Hugging Face, Archive.org, Wikipedia) et définition de l'adresse du projet en cours pour le DevOps FullStack. Cette phase vise à optimiser les différents rôles au sein de cette instance, en facilitant une collaboration efficace et en établissant une base solide pour le développement.",
+          "Progression": "75%",
+          "Tâches": [
+            {
+              "Titre": "Configuration de l'environnement de développement",
+              "Description": "Mise en place et configuration de l'environnement de développement nécessaire, y compris Node.js, Groq-SDK et autres outils.",
+              "Progression": "100%"
+            },
+            {
+              "Titre": "Création de repos GitHub",
+              "Description": "Création et initialisation des dépôts GitHub pour le versionnage et la collaboration sur le code source du projet.",
+              "Progression": "100%"
+            },
+            {
+              "Titre": "Intégration des ressources de données externes",
+              "Description": "Établissement des connexions avec des ressources de données externes comme Hugging Face, Archive.org, et Wikipedia pour enrichir le projet de données pertinentes.",
+              "Progression": "50%"
+            },
+            {
+              "Titre": "Définition des rôles et responsabilités",
+              "Description": "Identification et définition claire des rôles et responsabilités au sein de l'équipe DevOps FullStack pour assurer une collaboration efficace.",
+              "Progression": "75%"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

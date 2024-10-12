@@ -1,0 +1,68 @@
+{
+    "Phases_devops": [
+      {
+        "titre": "Préparation des Données",
+        "description": "Développement d'un modèle de diagramme de Gantt pour une gestion de projet efficace, avec suivi des tâches, planification et estimation des durées.",
+        "id_phase": "unique_phase_id_1",
+        "progression": "50%",
+        "taches": [
+          {
+            "titre": "Développement du modèle de Gantt",
+            "identifiant": "GanttModelDev",
+            "progression": "75%",
+            "plan_action": [
+              {
+                "étape": "Conception du modèle",
+                "durée_estimée": "2 jours",
+                "date_début": 1714089600,
+                "date_fin": 1714262400,
+                "progression": "100%",
+                "livrable": {
+                  "titre_livrable": "Conception du modèle de Gantt",
+                  "id_livrable": "unique_deliverable_id_conception",
+                  "url_livrable": "base64_encoded_url_conception"
+                }
+              },
+              {
+                "étape": "Implémentation du modèle",
+                "durée_estimée": "5 jours",
+                "date_début": 1714348800,
+                "date_fin": 1714780800,
+                "progression": "60%",
+                "livrable": {
+                  "titre_livrable": "Implémentation du modèle de Gantt",
+                  "id_livrable": "unique_deliverable_id_implementation",
+                  "url_livrable": "base64_encoded_url_implementation"
+                }
+              },
+              {
+                "étape": "Test du modèle de Gantt",
+                "durée_estimée": "3 jours",
+                "date_début": 1714867200,
+                "date_fin": 1715126400,
+                "progression": "0%",
+                "livrable": {
+                  "titre_livrable": "Test du modèle de Gantt",
+                  "id_livrable": "unique_deliverable_id_test",
+                  "url_livrable": "base64_encoded_url_test"
+                }
+              },
+              {
+                "étape": "Déploiement du modèle de Gantt",
+                "durée_estimée": "2 jours",
+                "date_début": 1715212800,
+                "date_fin": 1715299200,
+                "progression": "0%",
+                "livrable": {
+                  "titre_livrable": "Déploiement du modèle de Gantt",
+                  "id_livrable": "unique_deliverable_id_deployment",
+                  "url_livrable": "base64_encoded_url_deployment"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

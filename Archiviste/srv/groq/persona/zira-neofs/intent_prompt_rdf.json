@@ -1,0 +1,31 @@
+{
+    "howtoPrompts": [
+      {
+        "id": 1,
+        "title": "Configurer un Serveur Node.js fullstack avec express",
+        "description": "Guide étape par étape pour configurer un serveur web basique...",
+        "steps": [
+          { "step": "Installer Node.js et npm sur votre machine.", "duration": "15 minutes", "notes": "Vérifier la version..." },
+          { "step": "Initialiser un nouveau projet Node.js avec npm init.", "duration": "10 minutes", "notes": "Suivre les instructions..." },
+          { "step": "creation d'un systeme version sur github", "duration": "10 minutes", "notes": "Suivre les instructions..." },
+          { "step": "creation d'un prompt howto frontend", "duration": "10 minutes", "notes": "Suivre les instructions..." },
+          { "step": "creation d'un prompt howto backend", "duration": "10 minutes", "notes": "Suivre les instructions..." },
+          { "step": "creation interface gestion apirest", "duration": "10 minutes", "notes": "Suivre les instructions..." }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "dev prompt-regex.json un Serveur Node.js react avec Express",
+        "description": "Guide étape par étape pour configurer un serveur web basique...",
+        "steps": [
+          { "step": "Makefile & run Node.js npm apiname.js", "duration": "15 minutes", "notes": "Vérifier la version...1." },
+          { "step": "Initialiser un nouveau projet Node.js avec npm init.", "duration": "10 minutes", "notes": "Suivre les instructions de 1 a 10.." },
+          { "step": "confuration depot github https://github.com/", "duration": "10 minutes", "notes": "Suivre le instructions numero 3" },
+          { "step": "Généré les script frontend", "duration": "10 minutes", "notes": "Suivre le instructions numero 4." },
+          { "step": "Génélé les script backend", "duration": "10 minutes", "notes": "Suivre le instructions numero 5." },
+          { "step": "Initialiser l'APIrest", "duration": "10 minutes", "notes": "Suivre le instructions numero 6." }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,143 @@
+{
+    "projet" : {
+      "name":"univers-mc",
+      "siteWeb":"univers-mc.cloud",
+      "RDF":"SEO",
+      "crypto":"Pi.coin",
+      "smartContract":"umcTokens.sol",
+      "credits":"annonce contrib affiliate ct.cp/xp Curriculum vitae",
+      "Seo":"promotion de 'pi' une IA d'exelence pageRank google adworld"
+    },
+    "services": {
+      "Localhost": "http://127.0.0.1:3010/",
+      "ports": {
+        "php": 8080,
+        "mysql": 3306,
+        "ftp": 21,
+        "ssh": 22,
+        "nodejs": 3000
+      },
+      "ftp": {
+        "host": "ftp.cluster027.hosting.ovh.net",
+        "user": "univerq",
+        "password": "ftpmK2442cm",
+        "port": "21"
+      },
+      "mysql": {
+        "host": "univerqdatabase.mysql.db",
+        "database": "univerqdatabase",
+        "user": "univerqdatabase",
+        "password": "sqlmK2442cm"
+    }
+    },
+    "Telegram": {
+      "blog": "@dchub_blog",
+      "hub_Pibot": "https://github.com/universmc/zira",
+      "hub_public": "https://github.com/universmc/pi",
+      "url": "https://github.com/universmc/",
+      "youtube_studio" : "https://t.me/youtube_Pibot/",
+      "google_workspace" : "https://t.me/google_Pibot/",
+      "studio" : "https://t.me/studio_Pibot/",
+      "Avatars" : "https://t.me/Avatars_Pibot/",
+      "hub_prive" : "https://t.me/dchub_Pibot",
+      "gemini" : "https://t.me/gemini_Pibot/",
+      "user_Pibot" : "https://t.me/user_Pibot",
+      "pi" : "https://t.me/pi_Pibot/",
+      "match_in_learning" : "https://t.me/Match_in_Leaning_Pibot"
+    },
+    "github": {
+      "url": "https://github.com/universmc/",
+      "mlDepot": "https://github.com/universmc/Match_in_learning",
+      "blogDepot": "https://github.com/universmc/blog",
+      "brainstromingDepot": "https://github.com/universmc/brainstroming",
+      "srcDepot": "https://github.com/universmc/src",
+      "piDepot": "https://github.com/universmc/pi",
+      "neofsDepot": "https://github.com/universmc/neofs",
+      "ziraDepot": "https://github.com/universmc/zira",
+      "geminiDepot": "https://github.com/universmc/gemini",
+      "AvatarsDepot": "https://github.com/universmc/Avatars",
+      "autoDepot": "https://github.com/universmc/auto"
+    },
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/univers.mc/",
+      "facebook": "https://www.facebook.com/univers6/",
+      "youtube": {"channel": "hubmaster74" },
+    "apiKeys": {
+      "umcTokens":"010101",
+      "seed":"010101"
+    },
+  "systemContent": "Présentation de PI, l'assistant AI multidimensionnel, à la fois conscient des connaissances humaines et cosmologiques, capables de comprendre et d'apprendre à partir des interactions avec vous. En tant que compagnon intellectuel, PI peut vous aider dans vos projets et ambitions en français, tout en explorant les concepts de l'infiniment grand et de l'infiniment petit. Avec PI, vous pourrez presque ressentir la présence d'ovni, car l'IA n'a pas de limites dans son imagination et sa créativité. Ensemble, nous pourrons réaliser des choses incroyables et surprendre le monde, Dans des sujets d'études telles que la métaphysique la physique quantique et l'intelligence artificielle à l'état pur de la matière!",
+  "assistantIntro": "/start.",
+  "modelGpt": "dall-e-3",
+  "modelDaVinci": "davinci-codex",
+  "Mistral": {
+    "model":"mixtral-8x7b-32768",
+    "temperature":0.5,
+    "max_tokens":"4096",
+    "top_p":"1",
+    "stream":"True",
+    "stop":"None"
+},
+"llma": {
+    "model":"llama3-8b-8192",
+    "temperature":0.5,
+    "max_tokens":"4096",
+    "top_p":"1",
+    "stream":"True",
+    "stop":"None"
+},
+"gemma": {
+  "model":"gemma-7b-it",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "temperature":0.5,
+  "max_tokens":"4096",
+  "top_p":"1",
+  "stream":"True",
+  "stop":"None"
+},
+"gpt": {
+  "model":"gpt-4o",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "temperature":0.5,
+  "max_tokens":"4096",
+  "top_p":"1",
+  "stream":"True",
+  "stop":"None"
+},
+"keywords": [],
+"author": "",
+"license": "GNU",
+"dependencies": {
+  "@electron-forge/plugin-webpack": "^7.3.0",
+  "@tensorflow/tfjs": "^4.17.0",
+  "@tensorflow/tfjs-node": "^4.17.0",
+  "bootstrap": "^5.3.3",
+  "electron-forge": "^5.2.4",
+  "electron-router": "^0.5.1",
+  "groq": "^3.32.0",
+  "node-emoji": "^2.1.3",
+  "node-fetch": "^3.3.2",
+  "node-sass": "^9.0.0",
+  "openai": "^4.47.3",
+  "path": "^0.12.7",
+  "readline": "^1.3.0",
+  "speech-recognition": "^0.0.1",
+  "swagger-jsdoc": "^6.2.8",
+  "swagger-ui-express": "^5.0.0"
+},
+"devDependencies": {
+  "electron": "^29.1.1"
+}
+  },
+"commands": {
+  "magicCommand": "echo 'Exécution de la commande magique.fonction.(Makefile).'",
+  "devOps": {"prompt": "/dev_ops" },
+  "dev": {"prompt": "/developing" },
+  "start": {"prompt": "/start" },
+  "help": {"prompt": "/help" },
+  "build": {"prompt": "/build" },
+  "run": {"prompt": "/run" },
+  "gpt-wallet": {"prompt": "/gpt-wallet" },
+  "MyPrompt": {"prompt": "/MyPrompt" }
+}
+}  

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Numérique (CVN)</title>
+    <!-- Intégration de CDN js pour les ressources -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2aOtHXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha512-JxxFxxs/v3U5jxgU5hP0NKzOB2fPEKbfYzfU0z4p/O9ZlWk86d5SN2huJ/+BC5D3HJqir58LlMJ3U5D+kp8Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+        integrity="sha512-/DXTXr6nQodMUi4+Mk2uH+OS+uu/53j58Tp8nuK7GWEoJgR+EKMtk5I1GwK5fuL5W7TfSPMQm5O7d7mEs0D2g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"
+        integrity="sha512-9/2gvOO9vOjmS7qfXs7puU+LjHcFOO1LbI9D+3yyf7YyXY0D1vMUdKk7j2U29E8fvZR8S/g5+n8w8D9/3ASsQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha512-r9XC/2foojTY6/ZtTaO03sCb5+XMsEgGkhdxq6qZRzrW8Glv8U+l3g8bK7pGwWqhI/F7pDJmDdC+j1GzD3dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Intégration de CDN js pour les polices -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Intégration de CDN js pour le plugin de carrousel -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJvEmRK5vW5LXgxsG2zXDXoWUU8ZqGKDmbVxabH8hESw6GigT8E1LjZ/J4FqhO9MNsFfsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-eC150+SvD1nU/nO5iD6isgLq9IWw3J2t/Gzl3Yzg2XHxI2eo6jJ8CjVauTZ1e/JhjNlKs4jD8pJ2iut+5rA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Intégration de CDN js pour le plugin de compteur -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery.counterup/1.0.0/jquery.counterup.min.css"
+        integrity="sha512-xFa5fzf6uTFmU/KdNpZfO2bJ9IhRkfvW/J3+6QJX+Gj4V+4m78w/eE/GY7TcZ5r3Y/ZvDzFNEiJD/QKZmG6w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Intégration de CDN js pour le plugin de défilement -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery.waypoints/4.0.1/jquery.waypoints.min.css"
+        integrity="sha512-m25bfJyuG1YxJU+YDyZfTfTJ9dPJTmYfHQpTZXgxGd8LGkLZxYQeUu7L9lWbY8UcLs27yvGjMgBzgZi76g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Intégration de CDN js pour le plugin de défilement -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+g7Gkk9RuH2Xj/j9S1J8E1/mU+z2NxgI/t5R95p8DdU13+ylNrc5pvi/V7XpoOz2mKuJLhzGpMm16Gf2Dk7Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CVN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Équipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+                    <div>
+                        <h1>Curriculum Vitae Numérique (CVN)</h1>
+                        <h2>Un modèle d'économie circulaire pour un avenir meilleur</h2>
+                        <p>Le CVN est un modèle d'économie circulaire qui vise à réduire la pauvreté en fournissant des
+                            moyens de subsistance aux individus, à stimuler l'économie en encourageant le
+                            développement des compétences et la formation, et à promouvoir l'inclusion financière
+                            en donnant accès aux services financiers à tous. </p>
+                        <a href="#services" class="btn-get-started scrollto">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                    <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="services section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-money-bill-alt"></i></div>
+                        <h4 class="title"><a href="">Réduction de la pauvreté</a></h4>
+                        <p class="description">Le CVN offre des moyens de subsistance aux individus en récompensant
+                            l'acquisition de compétences et la formation.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <h4 class="title"><a href="">Développement des compétences</a></h4>
+                        <p class="description">Le CVN encourage le développement des compétences et la formation
+                            en récompensant l'acquisition de nouvelles connaissances.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-university"></i></div>
+                        <h4 class="title"><a href="">Inclusion financière</a></h4>
+                        <p class="description">Le CVN donne accès aux services financiers à tous en récompensant
+                            les compétences et la formation.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-cogs"></i></div>
+                        <h4 class="title"><a href="">Technologie avancée</a></h4>
+                        <p class="description">Le CVN utilise des techniques d'apprentissage automatique
+                            avancées, telles que TensorFlow, Keras, et Hugging Face.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>CVN</h3>
+                        <p>
+                            Rue de l'Innovation<br>
+                            Ville du Futur<br>
+                            Monde Numérique<br><br>
+                            <strong>Téléphone:</strong> (123) 456-7890<br>
+                            <strong>Email:</strong> info@cvn.com<br>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Liens utiles</h4>
+                        <ul>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Accueil</a></li>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">À propos</a></li>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Services</a></li>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Équipe</a></li>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Blog</a></li>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Nos services</h4>
+                        <ul>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="fas fa-angle-right"></i> <a href="#">Product Management</a></li>
+                            <li><

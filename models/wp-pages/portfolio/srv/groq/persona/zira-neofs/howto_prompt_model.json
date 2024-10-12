@@ -1,0 +1,21 @@
+[
+    {
+        "numéro_id": 1,
+        "étape_id": "1.1",
+        "titre": "Configurer un Serveur Node.js avec Express",
+        "étape_titre": "Installation de Node.js",
+        "description": "Guide étape par étape pour configurer un serveur web basique en utilisant Node.js et le framework Express.",
+        "instruction_détail": "Installer Node.js et npm sur votre machine.",
+        "conseil": "Vérifiez la version installée après installation.",
+        "étape_suivante": "1.2"
+    },
+    {
+        "numéro_id": 1,
+        "étape_id": "1.2",
+        "titre": "Configurer un Serveur Node.js avec Express",
+        "étape_titre": "Initialisation du Projet Node.js",
+        "instruction_détail": "Initialiser un nouveau projet Node.js avec npm init.",
+        "conseil": "Suivez les instructions du terminal pour configurer le projet.",
+        "étape_suivante": "1.3"
+    }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "titre": "Introduction à Groq-SDK",
+    "sousSections": [
+      {
+        "sousTitre": "Qu'est-ce que Groq-SDK?",
+        "contenuMarkdown": "src/md/introduction-groq.md"
+      }
+    ]
+  },
+  {
+    "titre": "Développer un modèle avec Groq-SDK",
+    "sousSections": [
+      {
+        "sousTitre": "Étape 1: Installation",
+        "contenuMarkdown": "src/md/installation-groq.md"
+      },
+      {
+        "sousTitre": "Étape 2: Configuration",
+        "contenuMarkdown": "src/md/configuration-groq.md"
+      }
+    ]
+  }
+]

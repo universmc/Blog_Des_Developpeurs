@@ -1,0 +1,123 @@
+[       
+    {
+    "titre": "Chronique Politique",
+    "sousSections": [
+        {
+            "sousTitre": "Brainstroming",
+            "contenu": "Dans cette l'ère de la Macronnie, la France est le théâtre d'une lutte entre les forces du pouvoir et les citoyens précaires et opprimés. Les travailleurs pauvres, les gilets jaunes, et ceux qui vivent sous le seuil de pauvreté sont les héros malgré eux de cette histoire, confrontés quotidiennement à la violence et à la peur De la fin du mois précarité et de la répression financière les amendements."
+        },
+        {
+            "sousTitre": "Prompt_instruc",
+            "contenu": "Créer un algorithme qui analyse les informations à partir de sources fiables telles que BFM Business, BFM News et Euronews, pour extraire les faits d'actualité en politique et en économie. Cela vous permettra de vous tenir à jour des dernières nouvelles et de les incorporer dans vos textes.md"
+        },
+        {
+            "sousTitre": "update",
+            "contenu": "sdéfinir des mots-clés et des expressions clés à rechercher dans ces sources d'information, comme 'politique', 'économie', 'nouvelles', 'actualités' et 'faits'. Cela vous aidera à cibler les articles et les nouvelles les plus pertinentes pour votre algorithme"
+        },
+        {
+            "sousTitre": "exemple1",
+            "contenuMarkdown": "src/md/A.md"
+        },
+        {
+            "sousTitre": "exemple1",
+            "contenuMarkdown": "src/md/A.md"
+        },
+        {
+            "sousTitre": "exemple_Economie",
+            "contenuMarkdown": "src/md/Eco.md"
+        },        {
+            "sousTitre": "exemple_Gillet_JAUNE",
+            "contenuMarkdown": "src/md/GJ.md"
+        },
+        {
+            "sousTitre": "exemple_EMP",
+            "contenuMarkdown": "src/md/EMP.md"
+        }
+        
+
+    ]
+    },
+    {
+        "titre": "Script_pilote",
+        "sousSections": [
+            {
+                "sousTitre": "Elaboration du Context",
+                "contenu": "L'écriture radiophonique se concentre sur la création de textes clairs et concis, avec une structure et un ton appropriés pour leur diffusion à la radio. Cela inclut l'utilisation de phrases courtes, de mots simples, et de transitions efficaces pour garantir la fluidité du discours.."
+            },
+            {
+                "sousTitre": "Rédation 1er Verion",
+                "contenu": "L'écriture radiophonique se concentre sur la création de textes clairs et concis, avec une structure et un ton appropriés pour leur diffusion à la radio. Cela inclut l'utilisation de phrases courtes, de mots simples, et de transitions efficaces pour garantir la fluidité du discours.."
+            },
+            {
+                "sousTitre": "Rédaction de la premier Version Nataration Test ecriture RadioPhonique",
+                "contenuMarkdown": "src/md/githubVersion.md"
+            }
+        ]
+    },
+    {
+        "titre": "Text",
+        "sousSections": [
+            {
+                "sousTitre": "chronologie des faits",
+                "contenuMarkdown": "src/md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "Chronique des Fait",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "Validation",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            }
+        ]
+    },
+    {
+        "titre": "Audio",
+        "sousSections": [
+            {
+                "sousTitre": "Entrainnement VOix off",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "Preparation de Partern timeCode",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            }
+        ]
+    },
+    {
+        "titre": "Video",
+        "sousSections": [
+            {
+                "sousTitre": "Préparation du Storyboard",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "Discour Macron europe replie Nation ",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            }
+        ]
+    },
+   
+    {
+        "titre": "Chronique Version final",
+        "sousSections": [
+            {
+                "sousTitre": "chronologie des faits",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            }
+        ]
+    },
+    {
+        "titre": "Publcation Social NetWork",
+        "sousSections": [
+            {
+                "sousTitre": "mardi peu après 10 heures",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "bulletin secret",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            }
+        ]
+    }
+]

@@ -1,0 +1,91 @@
+[ 
+    {
+    "Presentation du Projet": "Projet Univers MC Cloud - Allocation Universelle basée sur lÉconomie Circulaire et le CV Numérique",
+    "Titre": "Présentation Interactive du Projet d'Allocation Universelle",
+    "Objectifs Initiaux": [
+    "Générer un plan d'action pour garantir le droit au travail rémunéré sur univers-mc.",
+    "Mise en place d'un modèle économique circulaire basé sur les CV, la TVA et le PIB.",
+    "Développement d'un contrat intelligent crypto basé sur la monétisation des CV."
+    ],
+    "Instructions pour la Realisation": [
+    {
+        "Identifiant": "ETAPE-001",
+        "Etape": "Conceptualisation",
+        "Temperature": 0.5,
+        "Etat": "$currentIndex($etape++);",
+        "Metadonnees de Etape": "Réflexion initiale sur les objectifs et les ressources nécessaires.",
+        "Taches": [
+        "Définition claire des objectifs du projet.",
+        "Identification des parties prenantes clés et des ressources nécessaires."
+        ],
+        "Prompt": "Développer une compréhension approfondie des besoins du projet et planifier la structure de la plateforme.",
+        "PromptNextStep": "Faire le bilan de l étape de Conceptualisation et préparer la liste des tâches pour le Développement Frontend."
+    },
+    {
+        "Identifiant": "ETAPE-002",
+        "Etape": "Développement Frontend",
+        "Temperature": 0.6,
+        "Etat": "En cours de développement",
+        "Metadonnees de Etape": "Création des composants frontend (HTML, CSS, JS) pour la présentation du projet.",
+        "Taches": [
+        "Génération des scripts frontend (HTML, CSS, JS).",
+        "Conception d'une interface utilisateur conviviale et réactive."
+        ],
+        "Prompt": "Générer des modèles de code frontend adaptés aux besoins du projet.",
+        "PromptNextStep": "Évaluer le progrès du Frontend et planifier le développement Backend."
+    },
+    {
+        "Identifiant": "ETAPE-003",
+        "Etape": "Développement Backend",
+        "Temperature": 0.7,
+        "Etat": "En cours de développement",
+        "Metadonnees de l'Étape": "Création des scripts backend pour gérer les données et les interactions.",
+        "Taches": [
+        "Développement de scripts backend pour traiter les données (Node.js, PHP, SQL).",
+        "Intégration d'une API pour recueillir les feedbacks des utilisateurs."
+        ],
+        "Prompt": "Concevoir et implémenter des scripts backend robustes pour une intégration efficace avec le frontend.",
+        "PromptNextStep": "Réviser le développement Backend et préparer les phases de Tests et Validation."
+    },
+    {
+        "Identifiant": "ETAPE-004",
+        "Étape": "Tests et Validation",
+        "Temperature": 0.8,
+        "Etat": "En attente de test",
+        "Metadonnees de l Etape": "Assurer la qualité et la performance de l'application.",
+        "Taches": [
+        "Exécution de tests fonctionnels et d'interface utilisateur.",
+        "Validation des intégrations entre frontend et backend."
+        ],
+        "Prompt": "Réaliser une série de tests pour garantir la fiabilité et l'efficacité de l'application.",
+        "PromptNextStep": "Analyser les résultats des tests et planifier le Déploiement de l'application."
+    },
+    {
+        "Identifiant": "ETAPE-005",
+        "Etape": "Déploiement",
+        "Température": 0.9,
+        "Etat": "Prêt pour déploiement",
+        "Metadonnées de l Etape": "Mise en ligne de l'application.",
+        "Taches": [
+        "Déployer l'application sur un serveur approprié.",
+        "Optimisation pour différents appareils et navigateurs."
+        ],
+        "Prompt": "Préparer et exécuter le déploiement de l'application, en assurant son accessibilité et sa performance.",
+        "PromptLastStep": "$prompt=(instructions de request pour $PromptLextStep $Tâches =( ... ))."
+    },
+    {
+        "Identifiant": "ETAPE-006",
+        "Etape": "Requêtes API",
+        "Température": 0.9,
+        "Etat": "En cours de développement",
+        "Metadonnées de l Etape": "Exécution de requêtes API nécessaires pour l'application.",
+        "Tâches": [
+        "Développer et tester les requêtes API.",
+        "Intégration des requêtes API dans l'application."
+        ],
+        "Prompt": "Mettre en œuvre les requêtes API en suivant les spécifications définies.",
+        "PromptLooptStep": "$prompt=(instructions de request pour $currentIndex(0);)."
+    }
+    ]
+}
+]

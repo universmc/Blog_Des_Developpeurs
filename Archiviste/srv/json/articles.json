@@ -1,0 +1,15 @@
+{
+    "article": [
+        {
+            "title": "$Titre",
+            "className": "class",
+            "layout":["titre", "media", "content", "prompt", "meta-description"],
+            "mediaType": ["data/.img","data/.txt", "data/script", "data/.json","/.md"],
+            "p-content": "presentation",
+            "prompt":"meta-description",
+            "Date-create": "$DATE",
+            "date-update": "$DATE",
+            "status":["new","encour","terminé"]
+        }
+    ]
+}

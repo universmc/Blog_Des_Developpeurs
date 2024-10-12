@@ -1,0 +1,27 @@
+[       
+    {
+    "titre": "worldPress",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement de Theme WorldPress."
+        },
+        {
+            "sousTitre": "Thême",
+            "contenuMarkdown": "../../../src/md/themes.md"
+        },
+        {
+            "sousTitre": "configuration",
+            "contenuMarkdown": "../../../src/md/configuration.md"
+        },
+        {
+            "sousTitre": "Page",
+            "contenuMarkdown": "../../../src/md/page.md"
+        },
+        {
+            "sousTitre": "Article",
+            "contenuMarkdown": "../../../src/md/article.md"
+        }
+    ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "initialisation(configuration)"
+    },
+{
+    "role": "assistant",
+    "content": "projet:newSystemMessage(content:prompt{devOps/config.sh})"
+},
+{
+    "role": "user",
+    "content": "userInput"
+}
+]

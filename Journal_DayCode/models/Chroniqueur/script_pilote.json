@@ -1,0 +1,46 @@
+{
+    "version": "1.0",
+    "title": "Script pilote de chronique politique",
+    "author": "Pi",
+    "date": "2023-04-12",
+    "chronique": {
+    "id": "chronique1",
+    "title": "Enquête sur le parti politique EMP",
+    "sections": [
+    {
+    "id": "section1",
+    "title": "Introduction",
+    "articles": [
+    {
+    "id": "article1",
+    "title": "Contexte de la chronique",
+    "action": "Présenter le contexte politique de la chronique"
+    }
+    ]
+    },
+    {
+    "id": "section2",
+    "title": "Analyse",
+    "articles": [
+    {
+    "id": "article2",
+    "title": "Analyse du parti politique EMP",
+    "action": "Analyser les activités et les positions politiques du parti EMP"
+    }
+    ]
+    },
+    {
+    "id": "section3",
+    "title": "Opinion",
+    "articles": [
+    {
+    "id": "article3",
+    "title": "Opinion de l'auteur",
+    "action": "Exprimer l'opinion de l'auteur sur le parti EMP"
+    }
+    ]
+    }
+    ]
+    }
+    }
+    

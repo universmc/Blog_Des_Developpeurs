@@ -1,0 +1,62 @@
+{
+    "gantt-chart": {
+      "Phases:[RUN]:Brainstorming": {
+        "Description": "initialisation des différentes ressources (nodejs,groq-sdk,github,huggingface,archive.org,wiki) et l'adresse du projet en cours DevOps FullStack afin d' optimiser les différents rôles dans cette instance.",
+        "Progression": "75%"
+      },
+      "Phase 2: Préparation des Données": {
+        "Description": "Collecte des données brutes nécessaires, en collaboration avec les équipes Data. Nettoyage et prétraitement des données pour garantir leur qualité et pertinence pour les modèles à entraîner.",
+        "Progression": "50%",
+        "Sous-Phases": [
+          {
+            "Titre": "Développement du modèle de Gantt",
+            "Description": "Développement d'un modèle de diagramme de Gantt pour une gestion de projet efficace, avec suivi des tâches, planification et estimation des durées.",
+            "Progression": "75%",
+            "Tâches": [
+              {
+                "Titre": "Conception du modèle",
+                "Progression": "100%",
+                "Détails": "..."
+              },
+              {
+                "Titre": "Implémentation du modèle",
+                "Progression": "60%",
+                "Détails": "..."
+              },
+              {
+                "Titre": "Test du modèle de Gantt",
+                "Progression": "0%",
+                "Détails": "..."
+              },
+              {
+                "Titre": "Déploiement du modèle de Gantt",
+                "Progression": "0%",
+                "Détails": "..."
+              }
+            ]
+          }
+        ]
+      },
+      "Phase 3: Développement et Entraînement des Modèles": {
+        "Description": "...",
+        "Progression": "0%"
+      },
+      "Phase 4: Tests et Validation": {
+        "Description": "...",
+        "Progression": "0%"
+      },
+      "Phase 5: Intégration et Déploiement": {
+        "Description": "...",
+        "Progression": "0%"
+      },
+      "Phase 6: Communication et Feedback": {
+        "Description": "...",
+        "Progression": "0%"
+      },
+      "Phase 7: Documentation et Formation": {
+        "Description": "...",
+        "Progression": "25%"
+      }
+    }
+  }
+  

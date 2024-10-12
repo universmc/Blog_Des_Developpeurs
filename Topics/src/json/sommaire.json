@@ -1,0 +1,142 @@
+[
+    {
+      "titre": "Introduction à Groq-SDK",
+      "sousSections": [
+        {
+          "sousTitre": "Qu'est-ce que Groq-SDK?",
+          "contenuMarkdown": "src/md/introduction-groq.md"
+        }
+      ]
+    },
+    {
+      "titre": "Développer un modèle avec Groq-SDK",
+      "sousSections": [
+        {
+          "sousTitre": "Étape 1: Installation",
+          "contenuMarkdown": "src/md/installation-groq.md"
+        },
+        {
+          "sousTitre": "Étape 2: Configuration",
+          "contenuMarkdown": "src/md/configuration-groq.md"
+        }
+      ]
+    },
+    {
+      "titre": "News",
+      "sousSections": [
+        {
+          "sousTitre": "Dernières nouvelles en IA",
+          "contenuMarkdown": "src/md/news-ia.md"
+        }
+      ]
+    },
+    {
+      "titre": "Intelligence Artificielle",
+      "sousSections": [
+        {
+          "sousTitre": "Impact de l'IA sur la société",
+          "contenuMarkdown": "src/md/intelligence_artificielle.md"
+        }
+      ]
+    },
+    {
+      "titre": "Machine Learning",
+      "sousSections": [
+        {
+          "sousTitre": "Introduction au Machine Learning",
+          "contenuMarkdown": "src/md/intro-machine-learning.md"
+        }
+      ]
+    },
+    {
+      "titre": "Nouvelles Technologies",
+      "sousSections": [
+        {
+          "sousTitre": "Technologies émergentes en 2024",
+          "contenuMarkdown": "src/md/nouvelles-technologies.md"
+        }
+      ]
+    },
+    {
+      "titre": "Video Game",
+      "sousSections": [
+        {
+          "sousTitre": "Tendances des jeux vidéo",
+          "contenuMarkdown": "src/md/tendances-video-game.md"
+        }
+      ]
+    },
+    {
+      "titre": "Démocratie Participative",
+      "sousSections": [
+        {
+          "sousTitre": "L'impact du numérique sur la démocratie",
+          "contenuMarkdown": "src/md/democratie-participative.md"
+        }
+      ]
+    },
+    {
+      "titre": "Cinéma Box Office",
+      "sousSections": [
+        {
+          "sousTitre": "Le box-office 2024",
+          "contenuMarkdown": "src/md/cinema-box-office.md"
+        }
+      ]
+    },
+    {
+      "titre": "Agriculture",
+      "sousSections": [
+        {
+          "sousTitre": "Technologies et agriculture durable",
+          "contenuMarkdown": "src/md/agriculture-durable.md"
+        }
+      ]
+    },
+    {
+      "titre": "Justice",
+      "sousSections": [
+        {
+          "sousTitre": "L'IA dans le domaine judiciaire",
+          "contenuMarkdown": "src/md/justice-ia.md"
+        }
+      ]
+    },
+    {
+      "titre": "Meta Avatar",
+      "sousSections": [
+        {
+          "sousTitre": "Création de Meta Avatars",
+          "contenuMarkdown": "src/md/meta-avatar.md"
+        }
+      ]
+    },
+    {
+      "titre": "Industrie",
+      "sousSections": [
+        {
+          "sousTitre": "L'industrie 4.0 et l'IA",
+          "contenuMarkdown": "src/md/industrie-4-0.md"
+        }
+      ]
+    },
+    {
+      "titre": "Univers Crypto",
+      "sousSections": [
+        {
+          "sousTitre": "Développement et impact des cryptomonnaies",
+          "contenuMarkdown": "src/md/univers-crypto.md"
+        }
+      ]
+    },
+    {
+      "titre": "Google for Gemini",
+      "sousSections": [
+        {
+          "sousTitre": "Google et son projet Gemini",
+          "contenuMarkdown": "src/md/google-gemini.md"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,22 @@
+{
+    "Agriculture": ["Comment les technologies émergentes (IA, IoT) peuvent-elles aider les agriculteurs à améliorer leurs récoltes ?",
+        "Les tendances émergentes en matière de pratiques agricoles durables"],
+    "MachineLearning": ["Les modèles ML récents et leur impact potentiel sur divers secteurs",
+        "Comment améliorer la précision et l'efficacité de vos modèles ML"],
+    "Democratie": ["Impact de la technologie sur les processus démocratiques",
+        "Étude de cas : utilisation de la technologie pour renforcer la participation citoyenne"],
+    "Economie": ["Analyse des dernières tendances économiques et de leur impact sur le secteur technologique",
+        "Comment les technologies émergentes peuvent-elles transformer l'économie ?"],
+    "GameOne": ["Actualité sur les derniers jeux vidéo",
+        "Comment les technologies de l'IA et du ML sont utilisées dans le développement de jeux vidéo"],
+    "Industry": ["Étude de cas sur l'utilisation des technologies émergentes dans l'industrie",
+        "Quels sont les principaux défis auxquels l'industrie est confrontée en termes de digitalisation ?"],
+    "IntelligenceArtificielle": ["Développements récents en matière de recherche et d'applications pratiques",
+        "Impact éthique et social de l'IA"],
+    "JeuxVideo": ["Avis sur les derniers jeux vidéo",
+        "Analyse de l'évolution du secteur des jeux vidéo"],
+    "Justice": ["Comment les technologies peuvent-elles améliorer l'efficacité et la transparence du système judiciaire ?",
+        "Étude de cas sur l'utilisation de l'IA en matière de justice"],
+    "News": ["Articles d'actualité en rapport avec les domaines abordés (IA, jeux vidéo, technologies, économie, etc.)",
+        "Impact des dernières innovations technologiques sur nos vies"]
+  }

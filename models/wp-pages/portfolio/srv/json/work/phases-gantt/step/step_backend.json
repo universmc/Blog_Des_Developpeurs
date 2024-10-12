@@ -1,0 +1,22 @@
+{
+    "steps": [
+      {
+        "id": 4,
+        "title": "Introduction au Projet",
+        "filename": "step1.md",
+        "dependencies": []
+      },
+      {
+        "id": 5,
+        "title": "Configuration de l'Environnement",
+        "filename": "step2.md",
+        "dependencies": ["step1.md"]
+      },
+      {
+        "id": 5,
+        "title": "Développement Frontend",
+        "filename": "step3.md",
+        "dependencies": ["step1.md", "step2.md"]
+      }
+    ]
+  }

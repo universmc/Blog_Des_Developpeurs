@@ -1,0 +1,102 @@
+{
+    "phases": [
+      {
+        "phase": 1,
+        "title": "Préparation et Configuration",
+        "action1-0": [
+            "Utiliser le script Python pour générer les éléments du wireframe.",
+            "Appliquer les styles définis dans la charte graphique."
+          ],
+          "actions1-1": [
+              "Utiliser le script Python pour générer les éléments du wireframe.",
+              "Appliquer les styles définis dans la charte graphique."
+          ],
+          "actions1-2": [
+              "Utiliser le script Python pour générer les éléments du wireframe.",
+              "Appliquer les styles définis dans la charte graphique."
+            ]
+      },
+      {
+        "phase": 2,
+        "title": "Développement du Wireframe",
+        "action2-0": [
+          "prompt > Utiliser le script Python pour générer les éléments du wireframe.",
+          "Appliquer les styles définis dans la charte graphique."
+        ],
+        "action2-1": [
+            "xml > Utiliser le script Python pour générer les éléments du wireframe.",
+            "Appliquer les styles définis dans la charte graphique."
+        ],
+        "action2-3": [
+            "python > Utiliser le script Python pour générer les éléments du wireframe.",
+            "Appliquer les styles définis dans la charte graphique."
+          ]
+      },
+      {
+        "phase": 3,
+        "title": "Développement des script frontend",
+        "action2-0": [
+            "index.html Utiliser le script Python pour générer les éléments du wireframe.",
+            "Appliquer les styles définis dans la charte graphique."
+          ],
+          "action2-1": [
+              "style.css Utiliser le script Python pour générer les éléments du wireframe.",
+              "Appliquer les styles définis dans la charte graphique."
+          ],
+          "action2-3": [
+              "layout(js/json) Utiliser le script Python pour générer les éléments du wireframe.",
+              "Appliquer les styles définis dans la charte graphique."
+            ]
+      },
+      {
+        "phase": 4,
+        "title": "Développement des script backend",
+        "action2-0": [
+            "task1 >request-crud.php index.html Utiliser le script Python pour générer les éléments du wireframe.",
+            "task2 Appliquer les styles définis dans la charte graphique."
+          ],
+          "action2-1": [
+              "task1 data.jsUtiliser le script Python pour générer les éléments du wireframe.",
+              "task2 Appliquer les styles définis dans la charte graphique.",
+              "run loops"
+          ],
+          "action2-3": [
+              "task1 run server.js  Utiliser le script Python pour générer les éléments du wireframe.",
+              "task2 Appliquer les styles définis dans la charte graphique."
+            ]
+      },
+      {
+        "phase": 5,
+        "title": "Génération de contenu avec un AGI PS_zira-work-intent.json",
+        "actions": [
+          "Utiliser PS_zira-work-intent.json pour générer du contenu dynamique.",
+          "Intégrer ce contenu dans le site web."
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "Documentation du Processus",
+        "actions": [
+          "Rédiger un document détaillé sur le couplage XML/Python.",
+          "Inclure des exemples concrets et des captures d'écran."
+        ]
+      },
+      {
+        "phase": 7,
+        "title": "Frameworks loop-intent-prompt wireframe model template inclus",
+        "actions": [
+          "Développer des templates pour différents frameworks.",
+          "Assurer l'intégration et la flexibilité des templates dans le processus."
+        ]
+      },
+      {
+        "phase": 8,
+        "title": "Personnalisation et Utilisation",
+        "actions": [
+          "Permettre la personnalisation du modèle XML par les utilisateurs.",
+          "Offrir des options de style personnalisables dans la charte graphique."
+        ]
+      }
+    ]
+  }
+  

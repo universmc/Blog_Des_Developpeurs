@@ -1,0 +1,12 @@
+{
+    "sections": [
+        {
+            "title": "Titre de la Section 1",
+            "content": "Contenu de la Section 1"
+        },
+        {
+            "title": "Titre de la Section 2",
+            "content": "Contenu de la Section 2"
+        }
+    ]
+}

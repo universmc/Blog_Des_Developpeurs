@@ -1,0 +1,67 @@
+## Makefile pour le blog Game One : IA & Machine Learning
+
+Ce Makefile est conçu pour aider à la création et au développement du blog dédié à l'IA et au Machine Learning dans le monde du jeu vidéo, en particulier en lien avec Game One. 
+
+**Structure du projet:**
+
+* **`index.html`:** Page d'accueil du blog.
+* **`style.css`:** Feuilles de style CSS pour le blog.
+* **`scripts.js`:** Scripts JavaScript pour le blog (si nécessaire).
+* **`_posts/`:** Repertoire pour les articles de blog (Markdown).
+
+**Tâches:**
+
+* **`serve`:** Serveur local pour visualiser le blog en développement.
+* **`build`:** Génère les fichiers statiques du blog pour le déploiement.
+
+**Variables:**
+
+* **`TITLE`:** Titre du blog (ex: "Game One : IA & Machine Learning").
+* **`DESCRIPTION`:** Description du blog.
+* **`THEME`:**  Nom du thème CSS (ex: "gameone-theme").
+
+**Exemple de structure des fichiers:**
+
+```
+blog/
+├── index.html
+├── style.css
+├── scripts.js
+└── _posts/
+    └── 2023-10-26-premier-article.md
+```
+
+**Contenu du Makefile:**
+
+```makefile
+TITLE = "Game One : IA & Machine Learning"
+DESCRIPTION = "Exploration des liens entre l'IA, le ML et le gaming"
+THEME = "gameone-theme"
+
+# Serveur local
+serve:
+	@echo "Serveur local démarré sur http://localhost:8000/"
+	python -m http.server 8000
+
+# Générer les fichiers statiques
+build:
+	# Commande pour générer les fichiers statiques (ex: Jekyll, Hugo)
+	jekyll build
+
+# Définir les liens vers les ressources externes
+cdnjs:
+	@echo "CDNJS intégré pour les bibliothèques JavaScript."
+
+# Autres tâches (si nécessaire)
+
+```
+
+**Remarques:**
+
+* Ce Makefile est un exemple et doit être adapté à votre projet spécifique.
+* Vous pouvez ajouter des tâches supplémentaires pour gérer les tests, le déploiement, etc.
+* Assurez-vous de respecter la charte graphique de Game One pour le style CSS. 
+* N'hésitez pas à utiliser des outils comme Jekyll, Hugo ou Gatsby pour simplifier la création et la gestion du contenu du blog.
+
+
+

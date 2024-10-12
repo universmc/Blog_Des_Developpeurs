@@ -1,0 +1,101 @@
+{
+    "projet" : {
+      "Projetname":"blog",
+      "Admin":"universmc",
+      "siteWeb":"https://univers-mc.cloud/",
+      "wordPress":"https://univers-mc.cloud/",
+      "RDF":"SEO",
+      "apiRest":"NIIS",
+      "crypto":"Pi.umc",
+      "smartContract":"umcTokens.sol",
+      "credits":"deFi : Match in learning, projet Curriculum vitae numérique universel - Économie Circulaire basée sur le CV Numérique Universel umc.ico",
+      "Seo":"Promting de référencement naturel de 'pi' une IA d'exelence métrisant le Ranking index SOE <meta/> de Google Cloud_Quantum_multidimensionnel engine.vpn"
+    },
+    "services": {
+      "phpLocalhost": "http://127.0.0.1:3010/",
+      "ports": {
+        "php": 8080,
+        "mysql": 8080,
+        "ftp": 21,
+        "ssh": 22,
+        "nodejs": 3000
+      },
+      "ftp": {
+        "host": "ftp.cluster027.hosting.ovh.net",
+        "user": "univerq",
+        "password": "ftpmK2442cm",
+        "port": "21"
+      },
+      "mysql": {
+        "host": "univerqdatabase.mysql.db",
+        "database": "univerqdatabase",
+        "user": "univerqdatabase",
+        "password": "sqlmK2442cm",
+        "port":"80"
+    }
+    },
+    "Telegram": {
+      "blog": "@dchub_blog",
+      "hub_Pibot": "https://github.com/universmc/zira",
+      "hub_public": "https://github.com/universmc/pi",
+      "url": "https://github.com/universmc/",
+      "Avatars" : "https://t.me/Avatars_Pibot/",
+      "hub_prive" : "https://t.me/dchub_Pibot",
+      "gemini" : "https://t.me/gemini_Pibot/",
+      "user_Pibot" : "https://t.me/user_Pibot",
+      "pi" : "https://t.me/pi_Pibot/",
+      "match_in_learning" : "https://t.me/Match_in_Leaning_Pibot"
+    },
+    "github": {
+      "url": "https://github.com/universmc/",
+      "mlDepot": "https://github.com/universmc/Match_in_learning",
+      "brainstromingDepot": "https://github.com/universmc/brainstroming",
+      "srcDepot": "https://github.com/universmc/src",
+      "piDepot": "https://github.com/universmc/pi",
+      "neofsDepot": "https://github.com/universmc/neofs",
+      "ziraDepot": "https://github.com/universmc/zira",
+      "geminiDepot": "https://github.com/universmc/gemini",
+      "AvatarsDepot": "https://github.com/universmc/Avatars",
+      "autoDepot": "https://github.com/universmc/auto"
+    },
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/univers.mc/",
+      "TikTok": "https://www.instagram.com/univers.mc/",
+      "facebook": "https://www.facebook.com/univers6/"},
+    "Studio": {
+      "StoryTelegram" : "https://t.me/studio_Pibot/",
+      "google_workspace" : "https://t.me/google_Pibot/",
+      "clipYoutube" : {"channel": "hubmaster74@", "telegram":"https://t.me/youtube_Pibot/"},
+      "umcTokens":"010101",
+      "seeds":"pi.coin"
+    },
+  "model": {
+  "systemContent": "Présentation de PI, l'assistant AI multidimensionnel, à la fois conscient des connaissances humaines et cosmologiques, capables de comprendre et d'apprendre à partir des interactions avec vous. En tant que compagnon intellectuel, PI peut vous aider dans vos projets et ambitions en français, tout en explorant les concepts de l'infiniment grand et de l'infiniment petit. Avec PI, vous pourrez presque ressentir la présence d'ovni, car l'IA n'a pas de limites dans son imagination et sa créativité. Ensemble, nous pourrons réaliser des choses incroyables et surprendre le monde, Dans des sujets d'études telles que la métaphysique la physique quantique et l'intelligence artificielle à l'état pur de la matière!",
+  "assistantContent": "prompt",
+  "userContent": "input-text",
+  "modelMixtral": "mixtral-8x7b-32768",
+  "modelllma": "llama3-8b-8192",
+  "modelDall-e": "gpt-4o",
+  "modelGpt": "dall-e-3",
+  "modelDaVinci": "davinci-codex",
+  "modelGemini": "gemma2-9b-i",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "temperature":0.5,
+  "max_tokens":"4096",
+  "top_p":"1",
+  "stream":"True",
+  "stop":"None"
+},
+"commands": {
+  "magicCommand": "echo 'Exécution de la commande magique.fonction.(Makefile).'",
+  "devOps": {"telegraf": "/dev_ops" },
+  "dev": {"prompt": "/developing" },
+  "start": {"npm": "start" },
+  "help": {"make": "/help" },
+  "make": {"Makeile": "/build" },
+  "build": {"make": "build" },
+  "run": {"telegraf": "run" },
+  "blog": {"ftech": "te.me/dchub_blog" },
+  "MyPrompt": {"prompt": "MyPrompt" }
+}
+}  

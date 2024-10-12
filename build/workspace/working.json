@@ -1,0 +1,106 @@
+{
+    "project": "projetPlan_howto",
+    "workflow": {
+    "step1": {
+        "title": "Recherches sur les tendances et actualités",
+        "description": ["Automatiser les recherches"],
+        "roles": ["Responsable du Marketing", "Analystes des Médias Sociaux"],
+        "duration": 0.5,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+    },
+    "step2": {
+        "title": "Documentation de la base de données",
+        "description": ["Mettre à jour et préparer les données"],
+        "roles": ["Administrateur de Base de Données", "Data Analyst"],
+        "duration": 1,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+    },
+    "step3": {
+        "title": "Brainstorming",
+        "description": ["Réunion de créativité avec l'équipe pour générer de nouvelles idées"],
+        "roles": ["Équipe", "Responsable de Projet"],
+        "duration": 0.5,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+        },
+    "step4": {
+        "title": "Développement DevOps",
+        "description": ["Mise en place de pipelines CI/CD, automatisation du déploiement"],
+        "roles": ["Ingénieur DevOps", "Développeur"],
+        "duration": 0.5,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+        },
+    "step5": {
+        "title": "Marketing par courrier électronique et Publication sur les médias sociaux ",
+        "description": ["Gestion des newsletters et messages de suivi, Création et partage de contenu sur les médias sociaux"],
+        "roles": ["Responsable du Marketing", "Spécialiste de l'Email Marketing","Redacteur", "Designer"],
+        "duration": 0.5,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+        },
+    "step6": {
+        "title": "Diffusion en direct sur les réseaux sociaux",
+        "description": ["Présentation des produits/services et interaction avec le public"],
+        "roles": ["Responsable du Marketing", "Community Manager"],
+        "duration": 1,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+    },
+    "step7": {
+        "title": "Gestion des réseaux sociaux",
+        "description": ["Interaction avec le public et analyse des performances"],
+        "roles": ["Community Manager", "Analystes des Médias Sociaux"],
+        "duration": 1,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+        },
+    "step8": {
+        "title": "Utilisation de la publicité en ligne pour analyser de l'offre et de la demande",
+        "description": ["Gestion des campagnes publicitaires ciblées"],
+        "roles": ["Responsable du Marketing", "Spécialiste de la Publicité"],
+        "duration": 1,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+    },
+
+    "step9": {
+        "title": "Réunion avec les clients",
+        "description": ["Discuter des besoins et des attentes des clients, établir un plan d'action et éventuellement présenter les produits/services"],
+        "roles": ["Commercial", "Responsable du Marketing"],
+        "duration": 1,
+                "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+    },
+    "step10": {
+        "title": "Préparation des supports de promotion",
+        "description": ["Création de supports de promotion pour les réseaux"],
+        "roles": ["Graphiste", "Community Manager"],
+        "duration": 1,
+        "dependencies": [],
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "resources": []
+        }
+    }
+    }

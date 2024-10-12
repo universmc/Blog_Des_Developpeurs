@@ -1,0 +1,166 @@
+/* Palette de couleurs */
+:root {
+    --primary-bg-color: rgb(16, 22, 32);  /* Noir */
+    --accent-color: #d4d3d5;  /* Violet nuit */
+    --text-color: #FFFFFF;    /* Blanc */
+    --link-hover-color: #ffffff; /* Violet clair pour survols */
+}
+
+/* Global Styles */
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+/* Menu de Navigation */
+.navbar {
+    background-color: rgb(16, 22, 32); /* Noir */
+    color:white;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #FFFFFF; /* Blanc */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #7D3B8A; /* Violet clair */
+}
+
+/* Boutons */
+.btn-primary {
+    background-color: var(--accent-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--link-hover-color);
+}
+.menu-link {
+    color: #FFFFFF; /* Blanc */
+    text-decoration: none;
+}
+/* Ajouter un espacement entre les liens du menu */
+/* Menu principal */
+.main-menu {
+    display: flex;
+    list-style: none; /* Retirer les puces */
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu > li {
+    position: relative; /* Important pour le positionnement du menu déroulant */
+}
+
+/* Espacement entre les liens */
+.main-menu a {
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Couleur des liens au survol */
+.main-menu a:hover {
+    color: #7D3B8A;
+}
+
+/* Styles pour le sous-menu déroulant */
+.dropdown-menu {
+    display: none; /* Cacher le menu par défaut */
+    position: absolute;
+    background-color: #2E1A47; /* Violet nuit */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%; /* Positionnement sous l'élément parent */
+    left: 0;
+    width: 200px; /* Largeur du sous-menu */
+}
+
+/* Afficher le sous-menu au survol */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style des liens dans le sous-menu */
+.dropdown-menu li a {
+    padding: 10px;
+    display: block;
+    color: #FFFFFF;
+}
+
+/* Changer la couleur des liens au survol */
+.dropdown-menu li a:hover {
+    background-color: #7D3B8A; /* Violet clair */
+    color: #FFFFFF;
+}
+.menu-link:hover {
+    color: #7D3B8A; /* Violet clair au survol */
+}
+/* Liens */
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Code blocks */
+pre, code {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #1C1C1C;
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* Sections du blog */
+.section-title {
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--accent-color);
+}

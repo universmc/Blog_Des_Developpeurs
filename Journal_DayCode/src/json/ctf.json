@@ -1,0 +1,19 @@
+[       
+    {
+    "titre": "enquête sur la fraude électorale",
+    "sousSections": [
+        {
+            "sousTitre": "**Capture the Flag (CTF) : Le but du jeu**",
+            "contenu": "En CTF, comme dans notre scénario, l'objectif est de 'capturer le drapeau'. Dans notre cas, le 'flag' représente la preuve irréfutable de l'escroquerie électorale et financière orchestrée par ces hauts fonctionnaires."
+        },
+        {
+            "sousTitre": "introduction",
+            "contenuMarkdown": "src/md/intro.md"
+        },
+        {
+            "sousTitre": "update",
+            "contenuMarkdown": ".md"
+        }
+    ]
+    }
+]

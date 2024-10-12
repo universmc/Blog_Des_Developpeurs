@@ -1,0 +1,107 @@
+[       
+    {
+    "titre": "Boostrap",
+    "sousSections": [
+        {
+            "sousTitre": "📱 Introduction et Prérequis",
+            "contenu": "Définition précise de Bootstrap 5 : Framework CSS front-end open-source destiné à accélérer le développement de sites web responsives et modernes. ."
+        },
+        {
+            "sousTitre": "Positionnement",
+            "contenuMarkdown": "src/md/intro.md"
+        },
+        {
+            "sousTitre": "techniques",
+            "contenuMarkdown": "src/md/howto.md"
+        },
+        {
+            "sousTitre": "configuration",
+            "contenuMarkdown": "src/md/interface.md"
+        }
+    ]
+    },
+    {
+        "titre": "📱 Grille Bootstrap 🚗",
+        "sousSections": [
+            {
+                "sousTitre": "Fonctionnement de la grille 🔺",
+                "contenuMarkdown": "src/md/Geometry.md"
+            },
+            {
+                "sousTitre": "Création de mises en page complexes",
+                "contenuMarkdown": "src/md/Modelisation.md"
+            },
+            {
+                "sousTitre": "Personnalisation de la grille",
+                "contenuMarkdown": "src/md/Modelisation.md"
+            }
+        ]
+    },
+    {
+        "titre": "Composants Bootstrap 🌈",
+        "sousSections": [
+            {
+                "sousTitre": "Catalogue complet",
+                "contenuMarkdown": "md/Texturier.md"
+            },
+            {
+                "sousTitre": "Personnalisation 🎨",
+                "contenuMarkdown": "src/md/Texturier"
+            }
+        ]
+    },
+    {
+        "titre": "Base de Données 💡 ",
+        "sousSections": [
+            {
+                "sousTitre": "Groq",
+                "contenuMarkdown": "src/md/Rendering.md"
+            },
+            {
+                "sousTitre": "Modélisation des données ",
+                "contenuMarkdown": "src/md/Shadering.md"
+            }
+        ]
+    },
+    {
+        "titre": " Fonctionnalités Avancées 🎥",
+        "sousSections": [
+            {
+                "sousTitre": "Utilisation de Groq",
+                "contenu": "Présentation de l'agent IA Codex GPT pour le développement de Blender IA."
+            },
+            {
+                "sousTitre": "Modélisation des données ",
+                "contenuMarkdown": "src/md/Video_editing.md"
+            },
+            {
+                "sousTitre": "annimation",
+                "contenuMarkdown": "src/md/Annimation.md"
+            },
+            {
+                "sousTitre": "composition",
+                "contenuMarkdown": "src/md/Composition.md"
+            }
+
+
+        ]
+    },    
+    {
+        "titre": "Conclusion et Perspectives 🌊",
+        "sousSections": [
+        {
+        "contenu": "techniques et methodes avancées pour construire des modèles d'IA...",
+        "contenuMarkdown": "src/md/scripting.md"
+    }
+]
+    },  
+    {
+        "titre": "Mise au point et rendu final 🏁",
+        "sousSections": [
+            {
+                "sousTitre": "Présentation Structurée",
+                "contenu": "Organiser le contenu du cours de manière logique et intuitive."
+            }
+        ]
+    }
+]

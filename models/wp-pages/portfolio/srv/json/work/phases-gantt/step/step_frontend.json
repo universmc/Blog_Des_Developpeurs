@@ -1,0 +1,81 @@
+{
+    "steps1_intro": [
+      {
+        "id": 1,
+        "title": "Introduction au Projet",
+        "filename": "step1.md",
+        "dependencies": []
+      },
+      {
+        "id": 2,
+        "title": "Configuration de l'Environnement",
+        "filename": "step2.md",
+        "dependencies": ["step1.md"]
+      }
+    ],
+    "step2_develloppement-fullstack": [
+      {
+        "id": 3,
+        "title": "Développement Frontend",
+        "filename": "step3.md",
+        "dependencies": ["step1.md", "step2.md"]
+      },
+      {
+        "id": 4,
+        "title": "fichier index.html",
+        "filename": "step4.md",
+        "dependencies": ["step1.md", "step2.md","step3.md"]
+      },
+      {
+        "id": 5,
+        "title": "fichier build/style.scss",
+        "filename": "step5.md",
+        "dependencies": ["index.html","step1.md", "step2.md","step3.md","step4.md"]
+      },
+      {
+        "id": 6,
+        "title": "fichier frontend/js/script.js",
+        "filename": "step6.md",
+        "dependencies": ["index.html","style.css","step1.md", "step2.md","step3.md","step4.md"]
+      },
+      {
+        "id": 5,
+        "title": "fichier react",
+        "filename": "step5.md",
+        "dependencies": ["index.html","step1.md", "step2.md","step3.md","step4.md"]
+      }
+    ],
+    "step3_develloppement" : [
+    {
+      "id": 5,
+      "title": "repertoire backend/json",
+      "filename": ["step.json","layout.json","cours.html"],
+      "dependencies": ["index.html","step1.md", "step2.md","step3.md","step4.md"]
+    },
+    {
+      "id": 5,
+      "title": "fichier backend/database",
+      "filename": ["session.sql","table_db.sql","usr-cv.sql","apt-ia.sql"],
+      "dependencies": ["index.html","step1.md", "step2.md","step3.md","step4.md"]
+    },
+    {
+      "id": 5,
+      "title": "fichier backend/node",
+      "filename": "node.js",
+      "dependencies": ["index.html","step1.md", "step2.md","step3.md","step4.md"]
+    },
+    {
+      "id": 5,
+      "title": "fichier backend/request.php",
+      "filename": "step5.md",
+      "dependencies": ["index.html","step1.md", "step2.md","step3.md","step4.md"]
+    },
+    {
+      "id": 5,
+      "title": "repertoire node_module",
+      "filename": "step5.md",
+      "dependencies": ["index.html","step1.md", "step2.md","step3.md","step4.md"]
+    }
+  ]
+  }
+  

@@ -1,0 +1,31 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card-header {
+    border-bottom: none;
+    padding: 2rem;
+}
+
+.card-title {
+    color: #0088cc; /* Telegram's color */
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card-text {
+    color: #333;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.btn-Telegram {
+    background-color: #0088cc; /* Telegram's color */
+    border-color: #0088cc;
+}
+
+.btn-primary:hover {
+    background-color: #0077b3;
+    border-color: #0077b3;
+}

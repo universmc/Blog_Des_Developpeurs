@@ -1,0 +1,70 @@
+{
+    "palette": {
+        "primaryColors": [
+            "#Couleur1",
+            "#Couleur2"
+        ],
+        "secondaryColors": [
+            "#Couleur3",
+            "#Couleur4"
+        ],
+        "accentColors": [
+            "#Couleur5",
+            "#Couleur6"
+        ]
+    },
+    "typography": {
+        "fonts": {
+            "titles": "FontName1",
+            "mainText": "FontName2",
+            "secondaryText": "FontName3"
+        },
+        "sizes": {
+            "h1": "24px",
+            "h2": "20px",
+            "body": "16px"
+        },
+        "styles": {
+            "bold": "700",
+            "italic": "italic"
+        }
+    },
+    "iconsImages": {
+        "iconsStyle": "Flat/Outline/3D",
+        "imagesStyle": "Photographic/Illustrative"
+    },
+    "uiComponents": {
+        "buttons": {
+            "default": {
+                "backgroundColor": "#CouleurBouton",
+                "textColor": "#TexteCouleur"
+            }
+        },
+        "forms": {
+            "inputField": {
+                "borderColor": "#BordureCouleur"
+            }
+        }
+    },
+    "layoutSpacing": {
+        "layouts": {
+            "header": "60px",
+            "footer": "40px"
+        },
+        "spacing": {
+            "margin": "10px",
+            "padding": "10px"
+        }
+    },
+    "responsiveMedia": {
+        "breakpoints": {
+            "small": "576px",
+            "medium": "768px",
+            "large": "992px"
+        }
+    },
+    "documentationConsistency": {
+        "styleGuide": "LienVersGuideDeStyle",
+        "examplesTemplates": "LienVersExemples"
+    }
+}

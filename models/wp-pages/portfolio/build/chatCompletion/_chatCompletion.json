@@ -1,0 +1,17 @@
+{
+    "choices": [
+    {
+    "message": {
+    "role": "assistant",
+    "content": "Bien sûr, je peux vous aider avec ça. Quelles informations recherchez-vous ?"
+    }
+    },
+    {
+    "message": {
+    "role": "system",
+    "content": "Toutes les commandes de ce système sont disponibles sur notre site web. Voulez-vous y être redirigé ?"
+    }
+    }
+    ]
+    }
+    

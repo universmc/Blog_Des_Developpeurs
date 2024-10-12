@@ -1,0 +1,77 @@
+##  Makefile pour le blog Game One - IA & Machine Learning
+
+Ce Makefile est conçu pour simplifier le développement du blog dédié à Game One et aux avancées en matière d'IA et de Machine Learning. 
+
+**Structure du projet:**
+
+Le projet est organisé de la manière suivante:
+
+* **`index.html`:** Page d'accueil du blog.
+* **`css/`:** Dossier contenant les fichiers CSS.
+* **`js/`:** Dossier contenant les fichiers JavaScript.
+
+**Tâches:**
+
+* **`default`:** Compile et affiche le blog.
+* **`serve`:** Lance un serveur web pour visualiser le blog en direct.
+* **`clean`:** Supprime les fichiers générés.
+
+**Définitions:**
+
+* **`SOURCES`:** Liste des fichiers HTML source.
+* **`STYLES`:** Liste des fichiers CSS.
+* **`SCRIPTS`:** Liste des fichiers JavaScript.
+
+**Makefile:**
+
+```makefile
+SOURCES = index.html
+
+STYLES = style.css
+
+SCRIPTS = script.js
+
+# Tâche par défaut: Compile et affiche le blog
+default: compile serve
+
+# Compile le blog
+compile:
+    @echo "Compilant le blog..."
+
+# Lance un serveur web pour visualiser le blog
+serve:
+    @echo "Servant le blog sur http://localhost:8000/"
+    python3 -m http.server 8000
+
+# Nettoie les fichiers générés
+clean:
+    @echo "Nettoyage des fichiers..."
+    rm -rf build/*
+
+# Autres tâches
+
+```
+
+**Utilisation:**
+
+1.  Sauvegardez le Makefile dans le répertoire racine de votre projet.
+2.  Créez les fichiers HTML, CSS et JavaScript dans les dossiers respectifs.
+3.  Exécutez `make` pour compiler et servir le blog.
+4.  Accédez à `http://localhost:8000/` dans votre navigateur web.
+5.  Utilisez `make clean` pour supprimer les fichiers générés.
+
+
+
+**Conseils:**
+
+*  N'hésitez pas à ajouter des tâches supplémentaires en fonction de vos besoins.
+*  Utilisez des commentaires pour expliquer le fonctionnement de votre Makefile.
+*  Consultez la documentation de Make pour en savoir plus sur les fonctionnalités disponibles.
+
+**Remarque:**
+
+Ce Makefile est un exemple de base. Vous devrez peut-être l'adapter en fonction de vos besoins spécifiques.
+
+
+
+
